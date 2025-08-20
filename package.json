@@ -1,0 +1,31 @@
+{
+  "name": "palera1n-web-editor",
+  "version": "1.0.0",
+  "description": "Palera1n Web Page Editor - A modern HTML template generator with copy-paste functionality",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build required'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "palera1n",
+    "html-editor",
+    "template-generator",
+    "web-development",
+    "static-site"
+  ],
+  "author": "Palera1n Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Insfra-tst/PaleGen.git"
+  },
+  "homepage": "https://palegen.vercel.app",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+} 
